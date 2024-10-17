@@ -2,7 +2,7 @@ import os
 import discord
 from discord.ext import commands
 
-token = "MTI5NjQwMzMyNzQ4NzA1Mzg3OA.GrS1Wh.9EFImNuQ9RU-FpqTSoCYUWrZ-6-v5hzNY2vYCY"
+token = os.environ['TOKEN']
 intents = discord.Intents.all()
 intents.message_content = True
 intents.members = True
